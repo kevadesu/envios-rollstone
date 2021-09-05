@@ -1,4 +1,123 @@
 #!/usr/bin/env bash
+# dynbox.sh - Yes/No box demo
+echo " ______     ______     __         __         ______     ______   ______     __   __     ______    ";
+echo "/\  == \   /\  __ \   /\ \       /\ \       /\  ___\   /\__  _\ /\  __ \   /\ \"-.\ \   /\  ___\   ";
+echo "\ \  __<   \ \ \/\ \  \ \ \____  \ \ \____  \ \___  \  \/_/\ \/ \ \ \/\ \  \ \ \-.  \  \ \  __\   ";
+echo " \ \_\ \_\  \ \_____\  \ \_____\  \ \_____\  \/\_____\    \ \_\  \ \_____\  \ \_\\\"\_\  \ \_____\ ";
+echo "  \/_/ /_/   \/_____/   \/_____/   \/_____/   \/_____/     \/_/   \/_____/   \/_/ \/_/   \/_____/ ";
+echo "                                                                                                  ";
+echo "+---------"
+clear
+echo " ______     ______     __         __         ______     ______   ______     __   __     ______    ";
+echo "/\  == \   /\  __ \   /\ \       /\ \       /\  ___\   /\__  _\ /\  __ \   /\ \"-.\ \   /\  ___\   ";
+echo "\ \  __<   \ \ \/\ \  \ \ \____  \ \ \____  \ \___  \  \/_/\ \/ \ \ \/\ \  \ \ \-.  \  \ \  __\   ";
+echo " \ \_\ \_\  \ \_____\  \ \_____\  \ \_____\  \/\_____\    \ \_\  \ \_____\  \ \_\\\"\_\  \ \_____\ ";
+echo "  \/_/ /_/   \/_____/   \/_____/   \/_____/   \/_____/     \/_/   \/_____/   \/_/ \/_/   \/_____/ ";
+echo "                                                                                                  ";
+echo "++--------"
+clear
+echo " ______     ______     __         __         ______     ______   ______     __   __     ______    ";
+echo "/\  == \   /\  __ \   /\ \       /\ \       /\  ___\   /\__  _\ /\  __ \   /\ \"-.\ \   /\  ___\   ";
+echo "\ \  __<   \ \ \/\ \  \ \ \____  \ \ \____  \ \___  \  \/_/\ \/ \ \ \/\ \  \ \ \-.  \  \ \  __\   ";
+echo " \ \_\ \_\  \ \_____\  \ \_____\  \ \_____\  \/\_____\    \ \_\  \ \_____\  \ \_\\\"\_\  \ \_____\ ";
+echo "  \/_/ /_/   \/_____/   \/_____/   \/_____/   \/_____/     \/_/   \/_____/   \/_/ \/_/   \/_____/ ";
+echo "                                                                                                  ";
+echo "+++-------"
+clear
+echo " ______     ______     __         __         ______     ______   ______     __   __     ______    ";
+echo "/\  == \   /\  __ \   /\ \       /\ \       /\  ___\   /\__  _\ /\  __ \   /\ \"-.\ \   /\  ___\   ";
+echo "\ \  __<   \ \ \/\ \  \ \ \____  \ \ \____  \ \___  \  \/_/\ \/ \ \ \/\ \  \ \ \-.  \  \ \  __\   ";
+echo " \ \_\ \_\  \ \_____\  \ \_____\  \ \_____\  \/\_____\    \ \_\  \ \_____\  \ \_\\\"\_\  \ \_____\ ";
+echo "  \/_/ /_/   \/_____/   \/_____/   \/_____/   \/_____/     \/_/   \/_____/   \/_/ \/_/   \/_____/ ";
+echo "                                                                                                  ";
+echo "++++------"
+clear
+echo " ______     ______     __         __         ______     ______   ______     __   __     ______    ";
+echo "/\  == \   /\  __ \   /\ \       /\ \       /\  ___\   /\__  _\ /\  __ \   /\ \"-.\ \   /\  ___\   ";
+echo "\ \  __<   \ \ \/\ \  \ \ \____  \ \ \____  \ \___  \  \/_/\ \/ \ \ \/\ \  \ \ \-.  \  \ \  __\   ";
+echo " \ \_\ \_\  \ \_____\  \ \_____\  \ \_____\  \/\_____\    \ \_\  \ \_____\  \ \_\\\"\_\  \ \_____\ ";
+echo "  \/_/ /_/   \/_____/   \/_____/   \/_____/   \/_____/     \/_/   \/_____/   \/_/ \/_/   \/_____/ ";
+echo "                                                                                                  ";
+echo "+++++-----"
+clear
+echo " ______     ______     __         __         ______     ______   ______     __   __     ______    ";
+echo "/\  == \   /\  __ \   /\ \       /\ \       /\  ___\   /\__  _\ /\  __ \   /\ \"-.\ \   /\  ___\   ";
+echo "\ \  __<   \ \ \/\ \  \ \ \____  \ \ \____  \ \___  \  \/_/\ \/ \ \ \/\ \  \ \ \-.  \  \ \  __\   ";
+echo " \ \_\ \_\  \ \_____\  \ \_____\  \ \_____\  \/\_____\    \ \_\  \ \_____\  \ \_\\\"\_\  \ \_____\ ";
+echo "  \/_/ /_/   \/_____/   \/_____/   \/_____/   \/_____/     \/_/   \/_____/   \/_/ \/_/   \/_____/ ";
+echo "                                                                                                  ";
+echo "++++++----"
+clear
+echo " ______     ______     __         __         ______     ______   ______     __   __     ______    ";
+echo "/\  == \   /\  __ \   /\ \       /\ \       /\  ___\   /\__  _\ /\  __ \   /\ \"-.\ \   /\  ___\   ";
+echo "\ \  __<   \ \ \/\ \  \ \ \____  \ \ \____  \ \___  \  \/_/\ \/ \ \ \/\ \  \ \ \-.  \  \ \  __\   ";
+echo " \ \_\ \_\  \ \_____\  \ \_____\  \ \_____\  \/\_____\    \ \_\  \ \_____\  \ \_\\\"\_\  \ \_____\ ";
+echo "  \/_/ /_/   \/_____/   \/_____/   \/_____/   \/_____/     \/_/   \/_____/   \/_/ \/_/   \/_____/ ";
+echo "                                                                                                  ";
+echo "+++++++---"
+clear
+echo " ______     ______     __         __         ______     ______   ______     __   __     ______    ";
+echo "/\  == \   /\  __ \   /\ \       /\ \       /\  ___\   /\__  _\ /\  __ \   /\ \"-.\ \   /\  ___\   ";
+echo "\ \  __<   \ \ \/\ \  \ \ \____  \ \ \____  \ \___  \  \/_/\ \/ \ \ \/\ \  \ \ \-.  \  \ \  __\   ";
+echo " \ \_\ \_\  \ \_____\  \ \_____\  \ \_____\  \/\_____\    \ \_\  \ \_____\  \ \_\\\"\_\  \ \_____\ ";
+echo "  \/_/ /_/   \/_____/   \/_____/   \/_____/   \/_____/     \/_/   \/_____/   \/_/ \/_/   \/_____/ ";
+echo "                                                                                                  ";
+echo "++++++++--"
+clear
+echo " ______     ______     __         __         ______     ______   ______     __   __     ______    ";
+echo "/\  == \   /\  __ \   /\ \       /\ \       /\  ___\   /\__  _\ /\  __ \   /\ \"-.\ \   /\  ___\   ";
+echo "\ \  __<   \ \ \/\ \  \ \ \____  \ \ \____  \ \___  \  \/_/\ \/ \ \ \/\ \  \ \ \-.  \  \ \  __\   ";
+echo " \ \_\ \_\  \ \_____\  \ \_____\  \ \_____\  \/\_____\    \ \_\  \ \_____\  \ \_\\\"\_\  \ \_____\ ";
+echo "  \/_/ /_/   \/_____/   \/_____/   \/_____/   \/_____/     \/_/   \/_____/   \/_/ \/_/   \/_____/ ";
+echo "                                                                                                  ";
+echo "+++++++++-"
+clear
+echo " ______     ______     __         __         ______     ______   ______     __   __     ______    ";
+echo "/\  == \   /\  __ \   /\ \       /\ \       /\  ___\   /\__  _\ /\  __ \   /\ \"-.\ \   /\  ___\   ";
+echo "\ \  __<   \ \ \/\ \  \ \ \____  \ \ \____  \ \___  \  \/_/\ \/ \ \ \/\ \  \ \ \-.  \  \ \  __\   ";
+echo " \ \_\ \_\  \ \_____\  \ \_____\  \ \_____\  \/\_____\    \ \_\  \ \_____\  \ \_\\\"\_\  \ \_____\ ";
+echo "  \/_/ /_/   \/_____/   \/_____/   \/_____/   \/_____/     \/_/   \/_____/   \/_/ \/_/   \/_____/ ";
+echo "                                                                                                  ";
+echo "++++++++++"
+clear
+echo " ______     ______     __         __         ______     ______   ______     __   __     ______    ";
+echo "/\  == \   /\  __ \   /\ \       /\ \       /\  ___\   /\__  _\ /\  __ \   /\ \"-.\ \   /\  ___\   ";
+echo "\ \  __<   \ \ \/\ \  \ \ \____  \ \ \____  \ \___  \  \/_/\ \/ \ \ \/\ \  \ \ \-.  \  \ \  __\   ";
+echo " \ \_\ \_\  \ \_____\  \ \_____\  \ \_____\  \/\_____\    \ \_\  \ \_____\  \ \_\\\"\_\  \ \_____\ ";
+echo "  \/_/ /_/   \/_____/   \/_____/   \/_____/   \/_____/     \/_/   \/_____/   \/_/ \/_/   \/_____/ ";
+echo "                                                                                                  ";
+echo "Loading..."
+clear
+echo " ______     ______     __         __         ______     ______   ______     __   __     ______    ";
+echo "/\  == \   /\  __ \   /\ \       /\ \       /\  ___\   /\__  _\ /\  __ \   /\ \"-.\ \   /\  ___\   ";
+echo "\ \  __<   \ \ \/\ \  \ \ \____  \ \ \____  \ \___  \  \/_/\ \/ \ \ \/\ \  \ \ \-.  \  \ \  __\   ";
+echo " \ \_\ \_\  \ \_____\  \ \_____\  \ \_____\  \/\_____\    \ \_\  \ \_____\  \ \_\\\"\_\  \ \_____\ ";
+echo "  \/_/ /_/   \/_____/   \/_____/   \/_____/   \/_____/     \/_/   \/_____/   \/_/ \/_/   \/_____/ ";
+echo "                                                                                                  ";
+echo "Before running this script, make sure there are no PPAs and that this is a LSB release."
+clear
+dialog --title "Rollstone" \
+--backtitle "Rolling Rhino Installation" \
+--yesno "Do you want to proceed with the installation of Rolling Rhino?" 7 60
+
+# Get exit status
+# 0 means user hit [yes] button.
+# 1 means user hit [no] button.
+# 255 means user hit [Esc] key.
+response=$?
+case $response in
+   0) echo "Running script..." && sleep 3;;
+   1) echo "The installation of Rollstone has been cancelled." && sleep 5 && exit;;
+   255) echo "You pressed ESC.";;
+esac
+echo " ______     ______     __         __         ______     ______   ______     __   __     ______    ";
+echo "/\  == \   /\  __ \   /\ \       /\ \       /\  ___\   /\__  _\ /\  __ \   /\ \"-.\ \   /\  ___\   ";
+echo "\ \  __<   \ \ \/\ \  \ \ \____  \ \ \____  \ \___  \  \/_/\ \/ \ \ \/\ \  \ \ \-.  \  \ \  __\   ";
+echo " \ \_\ \_\  \ \_____\  \ \_____\  \ \_____\  \/\_____\    \ \_\  \ \_____\  \ \_\\\"\_\  \ \_____\ ";
+echo "  \/_/ /_/   \/_____/   \/_____/   \/_____/   \/_____/     \/_/   \/_____/   \/_/ \/_/   \/_____/ ";
+echo "                                                                                                  ";
+echo "Please enter your root password to continue."
+sudo echo "Successfully authenticated!"
 
 function usage () {
   echo
@@ -70,7 +189,7 @@ fi
 OS_CODENAME=$(lsb_release --codename --short)
 OS_ID=$(lsb_release --id --short)
 if [ "${OS_ID}" == "Ubuntu" ]; then
-  fancy_message info "Ubuntu detected."
+  fancy_message info "Ubuntu/enviOS detected."
 else
   fancy_message error "${OS_ID} detected, which is not supported."
   exit 1
@@ -132,12 +251,10 @@ if [[ ${REPLY} =~ ^[Yy]$ ]]; then
 # newer versions of the distribution.
 deb ${ARCHIVE} devel main restricted
 # deb-src ${ARCHIVE} devel main restricted
-
 ## Major bug fix updates produced after the final release of the
 ## distribution.
 deb ${ARCHIVE} devel-updates main restricted
 # deb-src ${ARCHIVE} devel-updates main restricted
-
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
 ## team. Also, please note that software in universe WILL NOT receive any
 ## review or updates from the Ubuntu security team.
@@ -145,7 +262,6 @@ deb ${ARCHIVE} devel universe
 # deb-src ${ARCHIVE} devel universe
 deb ${ARCHIVE} devel-updates universe
 # deb-src ${ARCHIVE} devel-updates universe
-
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
 ## team, and may not be under a free licence. Please satisfy yourself as to
 ## your rights to use the software. Also, please note that software in
@@ -155,7 +271,6 @@ deb ${ARCHIVE} devel multiverse
 # deb-src ${ARCHIVE} devel multiverse
 deb ${ARCHIVE} devel-updates multiverse
 # deb-src ${ARCHIVE} devel-updates multiverse
-
 ## N.B. software from this repository may not have been tested as
 ## extensively as that contained in the main release, although it includes
 ## newer versions of some applications which may provide useful features.
@@ -163,14 +278,12 @@ deb ${ARCHIVE} devel-updates multiverse
 ## or updates from the Ubuntu security team.
 deb ${ARCHIVE} devel-backports main restricted universe multiverse
 # deb-src ${ARCHIVE} devel-backports main restricted universe multiverse
-
 ## Uncomment the following two lines to add software from Canonical's
 ## 'partner' repository.
 ## This software is not part of Ubuntu, but is offered by Canonical and the
 ## respective vendors as a service to Ubuntu users.
 # deb http://archive.canonical.com/ubuntu devel partner
 # deb-src http://archive.canonical.com/ubuntu devel partner
-
 deb ${SEC_ARCHIVE} devel-security main restricted
 # deb-src ${SEC_ARCHIVE} devel-security main restricted
 deb ${SEC_ARCHIVE} devel-security universe
@@ -185,7 +298,10 @@ EOF
     apt -y update
     apt -y dist-upgrade
     apt -y autoremove
-    fancy_message info "Your Rolling Rhino is ready."
-
-    cat "$(dirname "$0")/logo.txt"
+    fancy_message info "Your Rollstone Insider Build is ready."
+    echo "#################"
+    echo "                 "
+    echo "Restarting now..."
+    echo "                 "
+    echo "#################"
 fi
