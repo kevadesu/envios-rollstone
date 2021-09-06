@@ -95,6 +95,15 @@ echo " \ \_\ \_\  \ \_____\  \ \_____\  \ \_____\  \/\_____\    \ \_\  \ \_____\
 echo "  \/_/ /_/   \/_____/   \/_____/   \/_____/   \/_____/     \/_/   \/_____/   \/_/ \/_/   \/_____/ ";
 echo "                                                                                                  ";
 echo "Before running this script, make sure there are no PPAs and that this is a LSB release."
+echo " ______     ______     __         __         ______     ______   ______     __   __     ______    ";
+echo "/\  == \   /\  __ \   /\ \       /\ \       /\  ___\   /\__  _\ /\  __ \   /\ \"-.\ \   /\  ___\   ";
+echo "\ \  __<   \ \ \/\ \  \ \ \____  \ \ \____  \ \___  \  \/_/\ \/ \ \ \/\ \  \ \ \-.  \  \ \  __\   ";
+echo " \ \_\ \_\  \ \_____\  \ \_____\  \ \_____\  \/\_____\    \ \_\  \ \_____\  \ \_\\\"\_\  \ \_____\ ";
+echo "  \/_/ /_/   \/_____/   \/_____/   \/_____/   \/_____/     \/_/   \/_____/   \/_/ \/_/   \/_____/ ";
+echo "                                                                                                  ";
+echo "Please enter your root password to continue."
+sudo echo "Successfully authenticated!"
+sudo apt install dialog -y
 clear
 dialog --title "Rollstone" \
 --backtitle "Rolling Rhino Installation" \
@@ -110,14 +119,7 @@ case $response in
    1) echo "The installation of Rollstone has been cancelled." && sleep 5 && exit;;
    255) echo "You pressed ESC.";;
 esac
-echo " ______     ______     __         __         ______     ______   ______     __   __     ______    ";
-echo "/\  == \   /\  __ \   /\ \       /\ \       /\  ___\   /\__  _\ /\  __ \   /\ \"-.\ \   /\  ___\   ";
-echo "\ \  __<   \ \ \/\ \  \ \ \____  \ \ \____  \ \___  \  \/_/\ \/ \ \ \/\ \  \ \ \-.  \  \ \  __\   ";
-echo " \ \_\ \_\  \ \_____\  \ \_____\  \ \_____\  \/\_____\    \ \_\  \ \_____\  \ \_\\\"\_\  \ \_____\ ";
-echo "  \/_/ /_/   \/_____/   \/_____/   \/_____/   \/_____/     \/_/   \/_____/   \/_/ \/_/   \/_____/ ";
-echo "                                                                                                  ";
-echo "Please enter your root password to continue."
-sudo echo "Successfully authenticated!"
+
 
 function usage () {
   echo
